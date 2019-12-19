@@ -20,8 +20,8 @@ checkstyle {
 }
 
 apply plugin: 'java'
-compileJava {options.encoding = "UTF-8"}
-compileTestJava {options.encoding = "UTF-8"}
+compileJava {options.encoding = "ISO-8859-1"}
+compileTestJava {options.encoding = "ISO-8859-1"}
 
 task Checkstyle(type: Checkstyle) {
     source 'src/main/java'
